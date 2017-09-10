@@ -13,5 +13,6 @@ print "Actually thats not too heavy."
 print "He's got %s eyes and %s hair." %(my_eyes,my_hair)
 print "his teeth are usually %s depending on the coffee." %my_teeth
 
-print "if I add %d, %d and %d I get %d." %(
+# %r is a case which can print whatever it may be string, num, etc
+print "if I add %d, %r and %d I get %d." %(
 	my_age, my_height, my_weight, my_age+my_height+my_weight)
